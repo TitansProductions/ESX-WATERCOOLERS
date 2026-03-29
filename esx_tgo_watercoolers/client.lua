@@ -13,8 +13,6 @@ end)
 Citizen.CreateThread(function()
     while true do
 
-        Wait(1)
-
         local sleep  = 1200
         local coords = GetEntityCoords(PlayerPedId())
 
